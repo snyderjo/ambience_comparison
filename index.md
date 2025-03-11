@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Daily Ambience Comparison"
-date: "Jan 13, 2025"
+date: "Mar 09, 2025"
 background: "/img/SenseHat.jpg"
 output:
   md_document:
@@ -10,10 +10,10 @@ output:
 knit: (function(input, encoding) {
   rmarkdown::render(input,
                     encoding = "UTF-8",
-                    output_dir = "../output")})
+                    output_dir = ".")})
 ---
 
-## Jan 13, 2025
+## Mar 09, 2025
 
 The graphs below below are the results the [ambience
 database](https://snyderjo.github.io/ambience/).
@@ -28,8 +28,8 @@ here](dailyReport.html)
 
 ![](images/Temperature-1.png)<!-- -->
 
-Some of you might be asking: *Does it really get above 40 (104 degrees
-Fahrenheit) in your bedroom???*  
+Depending on the season, some of you might be asking: *Does it really
+get above 40 (104 degrees Fahrenheit) in your bedroom???*  
 No. The sensor is attached to a raspberry pi, which produces a good
 amount of heat on its own. The above data measures temperature with a
 consistent bias.
