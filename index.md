@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Daily Ambience Comparison"
-date: "Mar 09, 2025"
+date: "Mar 18, 2025"
 background: "/img/SenseHat.jpg"
 output:
   md_document:
@@ -13,7 +13,7 @@ knit: (function(input, encoding) {
                     output_dir = ".")})
 ---
 
-## Mar 09, 2025
+## Mar 18, 2025
 
 The graphs below below are the results the [ambience
 database](https://snyderjo.github.io/ambience/).
@@ -54,7 +54,8 @@ G’s.
 Taken at face value, it means that  
 1. Gravity effect is slightly lesser in my bedroom than in the rest of
 the world, and  
-2. Gravity’s value occasionally jumps .6 G’s in my living room.  
+2. Gravity’s value occasionally jumps .6 G’s in my living room.
+
 I’ll chalk these differences up to measurement error.
 
 #### A couple of notes:
