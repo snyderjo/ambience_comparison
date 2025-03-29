@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Daily Ambience Comparison"
-date: "Mar 28, 2025"
+date: "Mar 29, 2025"
 background: "/img/SenseHat.jpg"
 output:
   md_document:
@@ -13,7 +13,7 @@ knit: (function(input, encoding) {
                     output_dir = ".")})
 ---
 
-## Mar 28, 2025
+## Mar 29, 2025
 
 The graphs below below are the results the [ambience
 database](https://snyderjo.github.io/ambience/).
@@ -65,7 +65,6 @@ I’ll chalk these differences up to measurement error.
   - If the data were immediate, it would be entirely too clear when I
     was out of town–information I’m not keen to share.  
 - There are notable gaps in data. Why?
-  - Some nights, I forget to put on the wearable.  
   - Some days the
     [DAG](https://airflow.apache.org/docs/apache-airflow/1.10.9/concepts.html)
     fails for no discernible reason–you might take it up with Apache.  
