@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Daily Ambience Comparison"
-date: "Aug 13, 2025"
+date: "Aug 14, 2025"
 background: "/img/SenseHat.jpg"
 output:
   md_document:
@@ -13,7 +13,7 @@ knit: (function(input, encoding) {
                     output_dir = ".")})
 ---
 
-## Aug 13, 2025
+## Aug 14, 2025
 
 The graphs below below are the results the [ambience
 database](https://snyderjo.github.io/ambience/).
