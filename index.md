@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Daily Ambience Comparison"
-date: "Aug 19, 2025"
+date: "Feb 08, 2026"
 background: "/img/SenseHat.jpg"
 output:
   md_document:
@@ -13,13 +13,13 @@ knit: (function(input, encoding) {
                     output_dir = ".")})
 ---
 
-## Aug 19, 2025
+## Feb 08, 2026
 
 The graphs below below are the results the [ambience
 database](https://snyderjo.github.io/ambience/).
 
 The idea is to identify any notable differences between the measurements
-the pi’s in two different room: my bedroom, and the living room. I’ve
+the pi’s in two different room: my office, and the living room. I’ve
 limited the results to those metrics which are of interest. For a
 comprehensive and more interactive version of this report [click
 here](dailyReport.html)
