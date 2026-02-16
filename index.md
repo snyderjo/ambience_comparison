@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Daily Ambience Comparison"
-date: "Feb 15, 2026"
+date: "Feb 16, 2026"
 background: "/img/SenseHat.jpg"
 output:
   md_document:
@@ -13,7 +13,7 @@ knit: (function(input, encoding) {
                     output_dir = ".")})
 ---
 
-## Feb 15, 2026
+## Feb 16, 2026
 
 The graphs below below are the results the [ambience
 database](https://snyderjo.github.io/ambience/).
@@ -29,7 +29,7 @@ here](dailyReport.html)
 ![](images/Temperature-1.png)<!-- -->
 
 Depending on the season, some of you might be asking: *Does it really
-get above 40 (104 degrees Fahrenheit) in your bedroom???*  
+get above 40 (104 degrees Fahrenheit) in your domicile???*  
 No. The sensor is attached to a raspberry pi, which produces a good
 amount of heat on its own. The above data measures temperature with a
 consistent bias.
@@ -52,9 +52,9 @@ Unless something changes, there’s notable variability around the value
 of 1 in the living room. The Bedroom value holds steady around .985
 G’s.  
 Taken at face value, it means that  
-1. Gravity’s effect is slightly lesser in my bedroom than in the rest of
+1. Gravity’s effect is slightly lesser in one room than in the rest of
 the world, and  
-2. Gravity’s value occasionally jumps .06 G’s in my living room.
+2. Gravity’s value occasionally jumps .06 G’s.
 
 I’ll chalk these differences up to measurement error.
 
@@ -68,4 +68,6 @@ I’ll chalk these differences up to measurement error.
   - Some days the
     [DAG](https://airflow.apache.org/docs/apache-airflow/1.10.9/concepts.html)
     fails for no discernible reason–you might take it up with Apache.  
+  - Sometimes, the pi records a non-UTF character, and data ingestion
+    fails.
   - Sometimes, the device itself simply fails to record. ¯\\\_(ツ)\_/¯
